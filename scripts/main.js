@@ -1,7 +1,13 @@
-console.log("Main has started execution");
+console.log("Main.js has started execution");
 
-const mainString = "This String is the Main Data";
+let mainString = "This String is the Main Data";
+
+console.log("Main String is: " + mainString)
 
 const mainArray = ["thing 1", "thing 2"];
 
-console.log("Main has finished execution");
+mainString = "This String is the NEW main data"
+
+console.log("Main String is: " + mainString)
+
+console.log("Main.js has finished execution");
